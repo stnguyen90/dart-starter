@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io';
 import 'package:dart_appwrite/dart_appwrite.dart';
 
 // This is your Appwrite function
@@ -30,5 +31,6 @@ Future<dynamic> main(final context) async {
     'learn': 'https://appwrite.io/docs',
     'connect': 'https://appwrite.io/discord',
     'getInspired': 'https://builtwith.appwrite.io',
+    'environment': Platform.environment,
   });
 }
