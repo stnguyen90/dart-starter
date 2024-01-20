@@ -6,7 +6,7 @@ Future<dynamic> main(final context) async {
   context.log(context.req.headers);
   context.log(context.req.bodyRaw);
   return context.res.json({
-    'environment': Platform.environment,
+    'env': Platform.environment,
     'headers': context.req.headers,
     'bodyRaw': context.req.bodyRaw
   });
