@@ -7,7 +7,6 @@ Future<dynamic> main(final context) async {
     'headers': context.req.headers,
     'environment': Platform.environment,
   };
-  
   context.log(jsonEncode(res));
   return context.res.json(res);
 }
