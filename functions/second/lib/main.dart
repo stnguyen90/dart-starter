@@ -12,7 +12,7 @@ Future<dynamic> main(final context) async {
   //    .setKey(Platform.environment['APPWRITE_API_KEY']);
 
   // You can log messages to the console
-  context.log('Hello, Logs!');
+  context.log('Hello, Logs!!');
 
   // If something goes wrong, log an error
   context.error('Hello, Errors!');
